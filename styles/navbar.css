@@ -1,0 +1,321 @@
+.parentNavbar4{
+    z-index: 50;
+}
+
+.nav4Links{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+}
+.nav4Links:hover, .nav4Links:active{
+    color: #31516D;
+    border-top: 4px solid #FF9844;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.navbar3{
+    /* display: absolute; */
+    /* position: sticky;  */
+    top: 0;
+    z-index: 1;
+    background-color: white;
+}
+/* .navbar3ShadowBottom{
+    border-color: rgba(248, 249, 250, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
+} */
+.nav3Submenu{
+    background-color: #DCDCDC;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    justify-content: center;
+    align-items: center;
+}
+
+.nav3SubmenuLinks{
+    color: #4682B4;
+    cursor: pointer;
+}
+
+.nav3SubmenuLinks:hover, .nav3SubmenuLinks:active{
+    background-color: white;
+    color: #31516D;
+}
+
+.navbar4Sticky{
+    position: sticky; 
+    /* transition: 0.5; */
+}
+.nav3DesktopLogo{
+    cursor: pointer;
+}
+.nav3AndroidLogo{
+    display: none;
+    cursor: pointer;
+}
+.navbar3Links{
+    display: flex;
+    /* justify-content: center;  */
+    justify-content: space-around;
+    /* align-content: center;  */
+    height: 3rem;
+}
+.nav3Links{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+}
+.nav3Links:hover, .nav3Links:active{
+    color: #31516D;
+    border-top: 4px solid #FF9844;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+.navbar4{
+    /* display: absolute; */
+    /* position: sticky;  */
+    top: 0;
+    z-index: 1000;
+    border-color: rgba(248, 249, 250, 1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.2);
+    /* transition: width 2s, height 4s;
+    transition-timing-function: ease; */
+}
+.navbar2Sticky{
+    position: sticky; 
+    /* transition: 0.5; */
+}
+.nav2Links{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+.nav2Links:hover, .nav2Links:active{
+    color: #31516D;
+    border-top: 4px solid #FF9844;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.logoNavbar2{
+    width: 50;
+    height: 50;
+}
+.cursorPointer{
+    cursor: pointer;
+}
+.homeNavbar2{
+    cursor: pointer;
+    color: #FB6513;
+    width: 35px;
+    height: 35px;
+}
+.navbar4Links{
+    display: flex;
+    align-items: center;
+    height: 3rem;
+}
+.nav4Links{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+.nav4Links:hover, .nav4Links:active, .nav4Links:focus, .nav4Links:focus-visible, .nav4Links:active:focus-visible, .nav4Links:active:focus, .nav4Links:focus-visible, .nav4Links::after{
+    color: #31516D !important;
+    border-top: 3px solid #FF9844 !important;
+    background-color: white !important;
+    border-bottom: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    box-shadow: none !important;
+}
+
+/* .navbar4LinksHover{
+    color: #31516D;
+    border-top: 3px solid #FF9844;
+    background-color: white;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+} */
+/* .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+} */
+
+.profilePic{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.bigProfilePic{
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.nav4ProfileDropdown{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+}
+.nav4ProfileDropdown:hover, .nav4profileDropdown:active, .nav4profileDropdown:focus, .nav4profileDropdown:focus-visible, .nav4profileDropdown:active:focus-visible, .nav4profileDropdown:active:focus, .nav4profileDropdown:focus-visible{
+    color: #4682B4;
+    cursor: pointer;
+    padding-top: 4px;
+    background-color: white;
+}
+.nav4Logout:hover{
+    background-color: #DC3545;
+    color: white;
+}
+.hamburgerNavbar4{
+    display: none;
+    cursor: pointer;
+    color: #FB6513;
+    width: 35px;
+    height: 35px;
+}
+.hamburgerNavbar4:hover{
+    color: #e98453;
+}
+.mobileNavbar{
+    /* display: flex; */
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 80%;
+    position: fixed; 
+    z-index: 100; 
+    top: 0;
+    left: 0;
+    /* background-color: #e3e3e3;  */
+    background-color: white;
+    overflow-x: hidden; 
+    /* Place content 60px from the top */
+    /* padding-top: 80px;
+    padding-bottom: 20px; */
+    /* 0.5 second transition effect to slide in the sidenav */
+    transition: 0.5s; 
+
+    /* modal */
+    padding-right: 0;
+    --bs-modal-bg: none;
+    --bs-modal-border-width: 0;
+    --bs-modal-body-height: 100vh;
+    --bs-modal-margin: 0;
+}
+.mobileNavbar4LinkDiv{
+    /* padding: 10px 20px 10px 20px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.mobileNavbar4Links{
+    /* font-size: 4vw; */
+    /* font-size: 2vw; */
+    font-size: 16px;
+    color: black;
+    cursor: pointer;
+    /* padding: 20px 40px 20px 40px; */
+}
+.mobileNavbar4Links:hover, .mobileNavbar4Links:active .mobileNavbar4Links::after{
+    color: #FB6513;
+}
+.mobileNavbar4Links{
+    font-size: 1.5vw;
+    color: black;
+    cursor: pointer;
+}
+
+.zIndex110{
+    z-index: 110;
+}
+
+.accordionHome button::after{
+    content: none;
+}
+
+@media screen and (min-width: 992px) {
+  /* styles for desktop screens */
+    .mobileNavbar4Links{
+        font-size: 1.5vw;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+/* styles for iPad screens */
+    .navbar4Links{
+        display: none;
+    }
+    .hamburgerNavbar4{
+        display:flex;
+    }
+    .navbar4Links{
+        display: none;
+    }
+    .mobileNavbar4LinkDiv{
+        /* padding: 10px 20px 10px 20px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobileNavbar4Links{
+        font-size: 16px;
+        /* font-size: 3vw; */
+        color: black;
+        /* padding: 20px 40px 20px 40px; */
+    }
+}
+
+@media screen and (max-width: 767px) {
+/* styles for mobile screens */
+    .navbar4Links{
+        display: none;
+    }
+    .hamburgerNavbar4{
+        display:flex;
+    }
+    .navbar4Links{
+        display: none;
+    }
+    /* .mobileNavbar2Links{
+        font-size: 4vw;
+        padding: 10px 20px 10px 20px;
+        color: black;
+    } */
+    .mobileNavbar4LinkDiv{
+        /* padding: 10px 20px 10px 20px; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .mobileNavbar4Links{
+        font-size: 16px;
+        /* font-size: 3vw; */
+        color: black;
+        /* padding: 20px 40px 20px 40px; */
+    }
+}
